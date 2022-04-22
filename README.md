@@ -1,5 +1,6 @@
-# web-dev-project
-#HTML FILE NAME: page.html
+
+HTML FILE NAME: page.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -135,7 +136,10 @@
 </body>
 </html>
 
-#CSS FILE name: page.css
+
+.......................................................................................................................................................................
+
+CSS FILE name: page.css
 *{
     margin: 0;
     padding: 0;
@@ -235,7 +239,9 @@ main {
     margin-left: 90px;
 }
 
-#Javascript FILE name:
+...................................................................................................................................................................
+
+Javascript FILE name: page.js
 window.onload = () => {
   const tab_switchers = document.querySelectorAll('[data-switcher]');
 
