@@ -357,3 +357,5 @@ function store_shelter()
 }
 
 #end of code....
+Comment by Emmanuel:
+Sorry guys for posting so late. The google drive file didn't seem to be working, and I assumed whatsapp would be too tedious, so I posted it here, it's still doing some weird stuff to my code, but you can try to edit it and you'll see the pure code.
