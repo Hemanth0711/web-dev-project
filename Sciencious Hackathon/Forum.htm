@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Disaster Recovery</title>
+        <link rel="stylesheet" href="forum.css">
+        <script src="forum.js" defer></script>
+    </head>
+    <body style = "margin: 0;">
+    <div id = "navbar">
+        <!..........................Navigation bar........................................>
+        <header>
+            <nav>
+                <a class="web-name1"> Disaster</a>
+                <a class = "web-name"> Recovery.</a>
+                <a class="head" href="HomePage.htm">Home</a>
+                <a class="head" href="https://www.bing.com/news/search?q=natural+disasters+recently&qs=n&form=QBNT&sp=-1&pq=natural+disasters+recentl&sc=8-25&sk=&cvid=632FDE3011B043C0BA17DA261A36D64B">News</a>
+                <a class="head" href="#">Forum</a>
+                <a class="head" href="Form.htm">Form</a>           
+            </nav>
+        </header>
+    </div>
+    <div class="flex_container" id="mainPage">
+        <div class="flexbox">
+            <div class="flexbox_account">
+                <img src="accountCircle.png">
+                Admin
+            </div>
+            <div class="flexbox_main">
+                This is the forum for this website
+            </div>
+            <div class = "flex_like">
+                <img src = "like.png"/>
+                <img src="comment.png"/>
+            </div>
+        </div>
+    </div>
+    <div class = "post">
+        <div id = "postMain" class = "postmain">
+            <div class = "postHeadbar">
+                <img src="photoattach.png"/>
+                <img src="fileattach.png"/>
+            </div>
+            <textarea id = "textArea" class = "posttxt">Create a new post</textarea>
+            <button class="postButton" onclick="post();" >Post</button>
+        </div>
+        <button id="postButton" onclick="add();" class = "add"><img  src="add circle.png"></button>
+    </div>
+    </body>
+</html>

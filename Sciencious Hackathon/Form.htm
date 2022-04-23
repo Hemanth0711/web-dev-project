@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaster Recovery</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="web-name1"> Disaster</a>
+            <a class ="web-name"> Recovery.</a>
+            <a class="head" href="HomePage.htm">Home</a>
+            <a class="head" href="https://www.bing.com/news/search?q=natural+disasters+recently&qs=n&form=QBNT&sp=-1&pq=natural+disasters+recentl&sc=8-25&sk=&cvid=632FDE3011B043C0BA17DA261A36D64B">News</a>
+            <a class="head" href="Forum.htm">Forum</a>
+            <a class="head" href="#">Form</a>              
+        </nav>
+    </header>
+    <main>
+        <section class="pages">
+            <div class="page is-active" data-page="1">
+                <form class = "victim_name">
+                <h2>This questionnaire will help assist you if you have been affected by a natural disaster. Please begin by entering your full name</h2>
+                    <label for="fname"><h2>Full name of victim:</h2></label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Firstname   Surname" required><br>
+                    <ul class="tabs is-active">
+                        <li class="tab">
+                            <a data-switcher data-tab="2" onclick = "store_name()"><h3>NEXT</h3></a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            <div class="page" data-page="2">
+                <h2>Do you need medical assistance?</h2>
+                <form>
+                        <input type="radio" id="yes" name="medprob" value="yes">
+                        <label for="yes">YES</label><br>
+                        <input type="radio" id="no" name="medprob" value="no">
+                        <label for="no">NO</label><br>
+                        <ul class="tabs">
+                            <li class="tab">
+                                <a data-switcher data-tab="3" onclick = "store_medical()"><h3>NEXT</h3></a>
+                            </li>
+                        </ul>
+                        <form>
+                            <input type="checkbox" name="abrasions" value="abrasions">
+                            <label for = "abrasions">Abrasions</label>
+                            <br/>
+                            
+                            <input type="checkbox" name="lacerations" value="lacerations">
+                            <label for = "lacerations">Laceraions</label>
+                            <br/>
+                            
+                            <input type="checkbox" name="brokenbones" value="brokenbones">
+                            <label for = "brokenbones">Broken bones</label>
+                            <br/>
+                            
+                            <input type="checkbox" name="cuts" value="cuts">
+                            <label for = "cuts">Cuts</label>
+                            <br/>
+                            
+                            <input type="checkbox" name="bruises" value="bruises">
+                            <label for = "bruises">Bruises</label>
+                            <br/>
+                            
+                            <input type="checkbox" name=" headtrauma" value="headtrauma">
+                            <label for = " headtrauma">Head trauma</label>
+                            <br/>
+                            
+                            <input type="checkbox" name="skinirritaions" value="skinirritations">
+                            <label for = "skinirritaions">Skin irritaions</label>
+                            <br/>
+                        </form>
+                </form>
+            </div>
+            <div class="page" data-page="3">
+                <form>
+                    <h2>Do you have a shelter to live in or a relative to live with?</h2>
+                        <input type="radio" id="Yes" name="shelter" value="yes">
+                        <label for="yes">YES</label><br>
+                        <input type="radio" id="No" name="shelter" value="no">
+                        <label for="no">NO</label><br>
+                        <ul class="tabs">
+                            <li class="tab">
+                                <a data-switcher data-tab="4" onclick= "store_shelter()"><h3>NEXT</h3></a>
+                            </li>
+                        </ul>
+                </form>
+            </div>
+            <div class="page" data-page="4">
+                    <h2>If you would like to change any answer previously written, please reload the page. If not, please continue.
+                    </h2>
+
+                        <!-----<input type="radio" id="yes" name="repeatt" value="yes">
+                        <label for="yes">YES</label><br>
+                        <input type="radio" id="no" name="repeatt" value="no">
+                        <label for="no">NO</label><br>----> 
+                        <ul class="tabs">
+                            <li class="tab">
+                                <a data-switcher data-tab="5"><h3>CONTINUE</h3></a>
+                            </li>
+                        </ul>
+            </div>
+            <div class="page" data-page="5">
+                <h2>Thank you for answering these questions</h2>
+            </div>
+        </section>
+
+        <div class="go_away_please">
+            <ul class="tabs" >
+                    <li class="tab is-active">
+                        <a data-switcher data-tab="1">Question 1</a>
+                    </li>
+                    <li class="tab">
+                        <a data-switcher data-tab="2">Question 2</a>
+                    </li>
+                    <li class="tab">
+                        <a data-switcher data-tab="3">Question 3</a>
+                    </li>               
+                    <li class="tab">
+                        <a data-switcher data-tab="4">Question 4</a>
+                    </li>
+                    <li class="tab">
+                        <a data-switcher data-tab="1" onclick= "store_shelter()"><h3>End</h3></a>
+                    </li>
+            </ul>
+        </div>
+
+
+    </main>
+</body>
+</html>
