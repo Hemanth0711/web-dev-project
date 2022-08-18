@@ -76,105 +76,32 @@ header{
         display: block;
         margin-top: -40px;
     }
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.intro{
+    font-size: 20px;
+    font-weight: 100;
+    margin: 32px 32px 0px 32px;
+}
+#container{
+    width: 100vw;
+    box-sizing: border-box;
+    padding : 32px;
+    float: center;
+}
+.item{
+    background-color: bisque;
+    width: 50%;
+    margin: 16px 16px;
+    padding: 32px;
+    text-align: center;
     
 }
-#about{
-    background-color: #dededeac;
-    padding-left: 3%;
-    padding-top: 1%;
-    padding-bottom: 2%;
-}
-#natural-disasters{
-   
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-    font-size: 32px; margin-top: -8px;
-    display: inline;
-}
 
-body {
-font-family: Arial, Helvetica, sans-serif;
-margin: 0;
-}
 
-html {
-box-sizing: border-box;
-}
-
-*, *:before, *:after {
-box-sizing: inherit;
-}
-
-.column {
-float: left;
-width: 33.3%;
-margin-bottom: 16px;
-padding: 0 8px;
-}
-
-.card, .team {
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-margin: 8px;
-}
-
-.about-section {
-padding: 50px;
-text-align: center;
-background-color: #474e5d;
-color: white;
-}
-
-.container {
-padding: 0 16px;
-}
-
-.container::after, .row::after {
-content: "";
-clear: both;
-display: table;
-}
-
-.title {
-color: grey;
-}
-
-.button {
-border: none;
-outline: 0;
-display: inline-block;
-padding: 8px;
-color: white;
-background-color: #000;
-text-align: center;
-cursor: pointer;
-width: 100%;
-}
-
-.button:hover {
-background-color: #555;
-}
-
-.card, .team{
-background-color: white;
-}
-.card:hover{
-/* background-color: rgb(199, 204, 199); */
-background-color: #efefef;
-color: black;
-
-}
-div a{
-text-decoration: none;
-color: black;
-}
-
-@media screen and (max-width: 750px) {
-.column {
-width: 100%;
-display: block;
-}
-}
-
-.team_mem{
-    margin: 0;
-    padding-top: 6px;
+button{
+    cursor: pointer;
 }
