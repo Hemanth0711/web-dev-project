@@ -38,29 +38,30 @@
     <main>
         <h1 class = "intro"> This questionare will help us to assist you if you have been affected by a natural disaster.</h1>
         <center id="container">
+            <p class = "intro">Victim details: </p>
             <form>
-            <div class="item"> Full Name:
-                <input type="text" id="fname" name="fname" required><br><br>
-                <button> next</button>
+            <div id = "div1" class="item"> Full Name:
+                <input type="text" id="fname" name="fname"><br><br>
+                <a class = "next_button" href = "#div2"> next </a>
             </div>
-            <div class="item"> Mobile Number:
-                <input type="text" id="mobile_number" name="mobile_number" required><br><br>
-                <button> next</button>
+            <div id = "div2" class="item"> Mobile Number:
+                <input type="text" id="mobile_number" name="mobile_number"><br><br>
+                <a class = "next_button" href = "#div3"> next</a>
             </div>
-            <div class="item"> Address:<br>
-                <input type="text" id="address" name="address" style = "width: 50%;" required><br><br>
-                <button> next</button>
+            <div id = "div3" class="item"> Address:<br>
+                <input type="text" id="address" name="address"><br><br>
+                <a class = "next_button" href = "#div4"> next</a>
             </div>
             
-            <div class="item">  Do you need any medical assistance?<br><br>
-                <button> Yes </button>
-                <button> No </button>
+            <div id = "div4" class="item">  Do you need any medical assistance?<br><br>
+                <input type="radio" name="medical_assist"> Yes
+                <input type="radio" name="medical_assist"> No
             </div>
-            <div class="item">  Do you have a shelter to live?<br><br>
-                <button> Yes </button>
-                <button> No </button>
+            <div id = "div5" class="item">  Do you have a shelter to live?<br><br>
+                <input type="radio" name="shelter"> Yes
+                <input type="radio" name="shelter"> No
             </div>
-            <button style = "width: 70px"> submit</button>
+            <button onclick="alert('Thank You! Your response has been recorded.')" style = "font-size: large;"> submit</button>
             </form>
         </center>
 

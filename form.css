@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 header{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border : 0%;
@@ -90,18 +94,39 @@ body{
     width: 100vw;
     box-sizing: border-box;
     padding : 32px;
-    float: center;
+    color: rgb(39, 39, 113);
 }
 .item{
     background-color: bisque;
     width: 50%;
-    margin: 16px 16px;
+    margin: 16px;
     padding: 32px;
     text-align: center;
     
 }
-
+#address{
+    width: 50%;
+}
 
 button{
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 650px) {
+    .item{
+        margin-left: 8px;
+        width: 75%;
+    }
+    #address{
+        width: 100%;
+    }
+}
+
+.next_button{
+    text-decoration: none;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 0 2px;
 }
