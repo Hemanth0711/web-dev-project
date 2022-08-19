@@ -62,7 +62,7 @@ header{
     
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 676px) {
     .logo {
       float: none;
       display: block;
@@ -100,7 +100,7 @@ body{
 .item{
     background-color: bisque;
     width: 50%;
-    margin: 16px;
+    margin: 8px;
     padding: 32px;
     text-align: center;
     
@@ -117,12 +117,13 @@ button{
 @media screen and (max-width: 650px) {
     .item{
         margin-left: 8px;
-        width: 75%;
+        width: 60%;
     }
     #address{
         width: 100%;
     }
 }
+
 
 .next_button{
     text-decoration: none;
