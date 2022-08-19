@@ -61,7 +61,7 @@ header{
     
 }
 
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 650px) {
     .logo {
       float: none;
       display: block;
