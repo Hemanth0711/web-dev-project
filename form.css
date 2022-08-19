@@ -117,7 +117,7 @@ button{
 @media screen and (max-width: 650px) {
     .item{
         margin-left: 8px;
-        width: 60%;
+        width: 55%;
     }
     #address{
         width: 100%;
