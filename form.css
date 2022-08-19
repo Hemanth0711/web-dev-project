@@ -91,10 +91,11 @@ body{
     margin: 32px 32px 0px 32px;
 }
 #container{
-    width: 100vw;
-    box-sizing: border-box;
-    padding : 32px;
+    width: auto;
     color: rgb(39, 39, 113);
+    border-radius: 2px;
+    margin: 25px 50px;
+    border: 1px dashed rgb(39, 39, 113);
 }
 .item{
     background-color: bisque;
@@ -126,6 +127,7 @@ button{
 .next_button{
     text-decoration: none;
     background-color: whitesmoke;
+    color: rgb(39, 39, 113);
     border: 1px solid black;
     border-radius: 2px;
     padding: 0 2px;
