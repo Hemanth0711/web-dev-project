@@ -37,31 +37,25 @@
             <a id="head" href="Form.htm">Form</a>
           </div>
     </div>
-    <div class="flex_container" id="mainPage">
-        <div class="flexbox">
-            <div class="flexbox_account">
-                <img src="accountCircle.png">
-                Admin
-            </div>
-            <div class="flexbox_main">
-                This is the forum for this website
-            </div>
-            <div class = "flex_like">
-                <img src = "like.png"/>
-                <img src="comment.png"/>
-            </div>
+    <div class = "forum_container">
+        <div class = "ask_question">
+            <p style = "margin: 0;"> TOP QUESTIONS</p>
+            <a class = "que_button" href = "#question">Ask Question</a>
         </div>
-    </div>
-    <div class = "post">
-        <div id = "postMain" class = "postmain">
-            <div class = "postHeadbar">
-                <img src="photoattach.png"/>
-                <img src="fileattach.png"/>
-            </div>
-            <textarea id = "textArea" class = "posttxt">Create a new post</textarea>
-            <button class="postButton" onclick="post();" >Post</button>
+        <hr>
+        <div id = "question" class = "question">
+            <p> Ask a public question</p>
+            <div class = "line"></div>
+            <p>Title</p>
+            <input type = "text">
+            <p>body</p>
+            <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+            <p>Tags</p>
+            <input type = "text">
+            <br>
+            <p></p>
+            <button onclick="alert('Thank you! Your question was poasted.')">post</button>
         </div>
-        <button id="postButton" onclick="add();" class = "add"><img  src="add circle.png"></button>
     </div>
     </body>
 </html>
